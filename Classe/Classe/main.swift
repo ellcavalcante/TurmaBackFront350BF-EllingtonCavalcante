@@ -65,3 +65,20 @@ class Mac {
     }
 }
 
+class airPlane {
+    
+    var isAirBus: Bool = true
+    var qArmchairs: Int = 200
+    var flightService: Bool = false
+    var company: String = "Emirates"
+    var qEngine: Int = 4
+    
+    func fly() {
+        print("Avião decolando")
+    }
+    
+    func land() {
+        print("Avião pousando")
+    }
+}
+
